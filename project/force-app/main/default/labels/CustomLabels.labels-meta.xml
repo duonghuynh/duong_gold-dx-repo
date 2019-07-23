@@ -4,7 +4,7 @@
         <fullName>Escalate_Case</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Escalate Case</shortDescription>
+        <shortDescription>Escalate Case Update for webhooks</shortDescription>
         <value>https://confluence.twitter.biz/pages/viewpage.action?pageId=51285002</value>
     </labels>
 </CustomLabels>
