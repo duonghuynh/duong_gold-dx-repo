@@ -25,6 +25,11 @@
         <default>false</default>
         <label>Tech</label>
     </customValue>
+    <customValue>
+        <fullName>Swimming</fullName>
+        <default>false</default>
+        <label>Swimming</label>
+    </customValue>
     <masterLabel>TM Vertical</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

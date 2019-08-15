@@ -31,6 +31,7 @@
             <operation>equals</operation>
             <value>True</value>
         </criteriaItems>
+        <description>test 2</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <tasks>

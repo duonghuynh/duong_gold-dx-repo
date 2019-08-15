@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>Addition_Label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Addition_Label_24x</shortDescription>
+        <value>Addition_Label_1</value>
+    </labels>
+    <labels>
+        <fullName>CloseWonOpportunityMessage</fullName>
+        <categories>Opportunity Lifecyle</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CloseWonOpportunityMessage</shortDescription>
+        <value>Congratulations, your Opportunity is closed won. If you need to edit, please do so on the IO header or IO.</value>
+    </labels>
+    <labels>
+        <fullName>CreditHoldMessage</fullName>
+        <categories>Opportunity Lifecyle</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CreditHoldMessage</shortDescription>
+        <value>Your opportunity has been placed on credit hold and needs to be manually reviewed. If your record does not moved to &quot;Approved&quot; in 60 minutes, email credit@twitter.com for assistance.</value>
+    </labels>
+    <labels>
         <fullName>Escalate_Case</fullName>
         <language>en_US</language>
         <protected>false</protected>
-        <shortDescription>Escalate Case Update for webhooks</shortDescription>
+        <shortDescription>Escalate Case Updated Release1</shortDescription>
         <value>https://confluence.twitter.biz/pages/viewpage.action?pageId=51285002</value>
     </labels>
 </CustomLabels>

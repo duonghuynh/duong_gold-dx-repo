@@ -8,6 +8,6 @@
     </accessMappings>
     <description>TM Sharing Set 1 desc ...</description>
     <name>TM Sharing Set 1</name>
-    <profiles>customer community login user</profiles>
-    <profiles>highvolumeportal</profiles>
+    <profiles>Customer Community Login User</profiles>
+    <profiles>HighVolumePortal</profiles>
 </SharingSet>

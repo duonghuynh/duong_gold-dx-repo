@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
+        <fullName>Duong_Sharing_Rule_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Duong Sharing Rule 2</label>
+        <sharedTo>
+            <role>MarketingTeam</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>AccountNumber</field>
+            <operation>contains</operation>
+            <value>111</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>Legal</fullName>
         <accessLevel>Read</accessLevel>
         <accountSettings>
@@ -19,6 +37,22 @@
             <value>1234</value>
         </criteriaItems>
     </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Duong_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Duong Sharing Rule</label>
+        <sharedTo>
+            <role>ChannelSalesTeam</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>ChannelSalesTeam</role>
+        </sharedFrom>
+    </sharingOwnerRules>
     <sharingOwnerRules>
         <fullName>TM_Legal_Sharing_Rule</fullName>
         <accessLevel>Read</accessLevel>
